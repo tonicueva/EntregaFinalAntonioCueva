@@ -1,0 +1,139 @@
+/* HOME */
+
+*{
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.miNav {
+    background-color: #90cfd8 !important;
+}
+
+.vbNav {
+    font-size: 2em;
+}
+
+.botonNav {
+    font-size: 1.2em;
+}
+
+.carritoNav {
+    margin-left: 60vw;
+}
+
+
+.tituloMain {
+    display: flex;
+    justify-content: center;
+    color: gray;
+    margin-top: 10vh;
+    color: black;
+    font-size: 5em;
+    text-align: center;
+
+}
+
+.subtituloMain {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+    font-size: 3em;
+    text-align: center;
+}
+
+.fotoTextoMain {
+    margin-top: 4em;
+    text-align: center;
+}
+
+.fotoVeronica {
+    border: 3px red;
+}
+
+.fotoVero {
+    width: 40vw;
+    border-radius: 60%;
+    border:  red;
+    margin: 4em;
+}
+
+.textoVeronica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardLibro {
+    display: flex;
+    justify-content: center;
+}
+
+.tituloCard {
+    display: flex;
+    justify-content: center;
+}
+
+/* FOOTER */
+
+.miFooter {
+    height: 4em;
+    background-color: #90cfd8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nombreFooter {
+    font-size: 1.5em;
+}
+
+.rights {
+    padding-right: 3.5em;
+    opacity: 20%;
+}
+
+.rrss {
+    display: flex;
+    align-items: center; 
+}
+
+.logoRrss {
+    width: 4vw;
+    height: auto;
+    opacity: 70%;
+}
+
+.logoIg {
+    width: 3vw;
+    height: auto;
+    margin-right: 1vw;
+}
+
+
+/* OBRA */
+
+.miCard {
+    border: solid 0.2em #90cfd8;
+    margin: 2em;
+    align-items: center;
+}
+
+.imgCard {
+    margin-top: 1em;
+    width: 75%;
+}
+
+/* PAGE OBRA */
+
+.linkVerLibro {
+    color: white;
+    text-decoration: none;
+}

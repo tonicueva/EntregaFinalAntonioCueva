@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "idCategoria": 1,
+        "nombre": "Los Amorosos",
+        "precio": 3500,
+        "stock": 100,
+        "img": "..."
+    },
+
+    {
+        "id": 2,
+        "idCategoria": 2,
+        "nombre": "Despertar e inventar en la adolescencia",
+        "precio": 4700,
+        "stock": 500,
+        "img": "https://firebasestorage.googleapis.com/v0/b/veronica-berenstein.appspot.com/o/Imagenes%2Flibro2.jpg?alt=media&token=909268ad-39db-4eeb-b593-11a91df8568d"
+    },
+
+    {
+        "id": 3,
+        "idCategoria": 1,
+        "nombre": "El A0dolescente Contemporáneo",
+        "precio": 2900,
+        "stock": 40,
+        "img": "https://firebasestorage.googleapis.com/v0/b/veronica-berenstein.appspot.com/o/Imagenes%2Flibro3.jpg?alt=media&token=cc15e00e-672b-4d88-a775-b14f5ba44d5e"
+    }
+]
