@@ -4,11 +4,11 @@ import {collection, doc, addDoc, getFirestore, updateDoc, getDoc, getDocs, delet
 
 const firebaseConfig = {
   apiKey: process.env.API_KEY,
-  authDomain: "veronica-berenstein.firebaseapp.com",
-  projectId: "veronica-berenstein",
-  storageBucket: "veronica-berenstein.appspot.com",
-  messagingSenderId: "197538531890",
-  appId: "1:197538531890:web:5ea757913675e3eb494a2b"
+  authDomain: "vero-berenstein.firebaseapp.com",
+  projectId: "vero-berenstein",
+  storageBucket: "vero-berenstein.appspot.com",
+  messagingSenderId: "441370333584",
+  appId: "1:441370333584:web:8cda1176a980dca1166315"
 };
 
 // Initialize Firebase
