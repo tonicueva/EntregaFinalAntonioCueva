@@ -1,24 +1,22 @@
 import React, {useState, useContext} from 'react';
 import { CarritoContext } from '../context/CarritoContext';
-import Carrito from './carrito';
-
 const DetalleProducto = ({producto}) => {
-    
     const [cantidad, setCantidad] = useState(1)
+
     const {carrito, agregarProducto, quitarProducto} = useContext(CarritoContext)
 
     const cantProducto = (operacion) => {
         if(operacion == "+") {
             if(cantidad < producto[1].stock) {
-              setCantidad(cantidad + 1)
-            }   
+                setCantidad(cantidad + 1)
+            }
         } else {
-          if(cantidad > 1) {
-            setCantidad(cantidad - 1)
-          }
-      }
+            if(cantidad > 1) {
+                setCantidad(cantidad - 1)
+            }
+        }
     }
-    
+
     return (
         <>
             <div className="card mb-3" style={{ maxWidth: 540 }}>
@@ -32,7 +30,14 @@ const DetalleProducto = ({producto}) => {
                             <h3 className='card-subtitle'> Precio: ${producto.precio}</h3>
                         </div>
                         <div>
-                            <button className='btn btn-primary' onClick={() => agregarProducto(producto)}>Comprar</button>
+                            <p>
+                                {cantidad}
+                            </p>
+                        </div>
+                        <div>
+                            <button onClick={() => cantProducto("+")}>+</button>
+                            <button onClick={() => cantProducto("-")}>-</button>
+                            <button className='btn btn-primary' onClick={() => agregarProducto(producto, cantidad)}>Comprar</button>
                         </div>
                     </div>
                 </div>

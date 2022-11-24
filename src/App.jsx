@@ -8,8 +8,7 @@ import Contacto from './components/contacto'
 import Home from './components/home';
 import Carrito from './components/carrito'
 import Footer from './components/footer'
-import DetalleProducto from './components/detalleProducto'
-import Contador from './layouts/contador';
+import DetalleProducto from './components/DetalleProducto'
 import Categorias from './components/categorias';
 
 
